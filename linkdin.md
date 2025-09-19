@@ -1,6 +1,3 @@
-Here's the same engaging post without emojis:
-
-## Post Text:
 
 **AI ENGINEER JOB DESCRIPTION vs REALITY: The Ultimate Plot Twist**
 
