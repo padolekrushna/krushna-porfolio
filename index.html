@@ -243,14 +243,21 @@
       grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
       gap: 2.5rem;
     }
-    .project-card {
-      background: var(--primary);
-      border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-      transition: var(--transition);
-      border: 1px solid rgba(100, 255, 218, 0.1);
+    /* SHORT FIRST PROJECT CARD */
+    .projects-grid .project-card:first-child .project-img {
+      height: 140px;
     }
+    
+    .projects-grid .project-card:first-child .project-content p {
+      font-size: 0.9rem;
+      line-height: 1.4;
+      margin-bottom: 1rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
     .project-card:hover {
       transform: translateY(-15px);
       border-color: var(--accent);
